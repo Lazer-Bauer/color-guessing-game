@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: lightskyblue;
+}
+.rgb {
+  height: 140px;
+  width: 90%;
+  background-color: lightseagreen;
+  margin-inline: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rgb p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0%;
+}
+h4 {
+  margin: 0%;
+}
+
+.rgb h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.colors {
+  padding: 50px 0 50px;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 10px;
+  background-color: black;
+  margin-inline: auto;
+  width: 90%;
+}
+.colors div {
+  width: 160px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 5px;
+}
+.ifWon {
+  text-align: center;
+  width: 90%;
+  margin-inline: auto;
+}
+.reset-game {
+  margin-top: 40px;
+  border-radius: 30%;
+  width: 300px;
+  height: 75px;
+  margin-inline: auto;
+  background-color: blueviolet;
+}
+/* @media only screen and (max-width: 460px) {
+  .rgb {
+    font-size: 2rem;
+  }
+} */
+
+@media only screen and (max-width: 400px) {
+  .rgb h4 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .colors div {
+    width: 80px;
+    height: 80px;
+  }
+}
